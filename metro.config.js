@@ -19,7 +19,6 @@ const WEB_ALIASES = {
     __dirname,
     './polyfills/web/safeAreaContext.web.jsx'
   ),
-  'react-native-maps': path.resolve(__dirname, './polyfills/web/maps.web.jsx'),
   'react-native-web/dist/exports/SafeAreaView': path.resolve(
     __dirname,
     './polyfills/web/SafeAreaView.web.jsx'
@@ -30,10 +29,7 @@ const WEB_ALIASES = {
     './polyfills/web/refreshControl.web.tsx'
   ),
   'expo-status-bar': path.resolve(__dirname, './polyfills/web/statusBar.web.jsx'),
-  'expo-location': path.resolve(__dirname, './polyfills/web/location.web.ts'),
   './layouts/Tabs': path.resolve(__dirname, './polyfills/web/tabbar.web.jsx'),
-  'expo-notifications': path.resolve(__dirname, './polyfills/web/notifications.web.tsx'),
-  'expo-contacts': path.resolve(__dirname, './polyfills/web/contacts.web.ts'),
   'react-native-web/dist/exports/ScrollView': path.resolve(
     __dirname,
     './polyfills/web/scrollview.web.jsx'
